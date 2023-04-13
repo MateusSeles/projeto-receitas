@@ -12,12 +12,10 @@ html {
     position: fixed;
     overflow: hidden;
     /*margin-left: -6px;*/
-    
-
 }
 
 header {
-    height: 150px;
+    height: 100px;
     width: 100vw;
 }
 
