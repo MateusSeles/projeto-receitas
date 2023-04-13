@@ -37,6 +37,9 @@ div.recprincipal {
 h1 {
     display: block;
     font-size: 20px;
-    background-position: center;
+    background-position: center;   
+}
+
+li {
     
 }
