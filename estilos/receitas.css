@@ -18,8 +18,8 @@ div.receit{
     display: inline-flex;
     margin-right: 30px;
     border: solid;
-    height: 60vh;
-    width: 300px;
+    height: 70vh;
+    width: 360px;
     text-align: center;
     margin-bottom: 60px;
 
@@ -37,9 +37,104 @@ div.recprincipal {
 h1 {
     display: block;
     font-size: 20px;
-    background-position: center;   
+    text-align: center;  
 }
 
-li {
-    
+#receita1 > h1 {
+    width: 520px;
+    margin-left: -300px;
+}
+
+#receita1 > img {
+    width: 750px;
+    padding: 20px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+#receita1 > ul {
+    margin-top: 280px;
+}
+
+#receita1 > ul > li {
+    width: 200px;
+    display: list-item;
+    text-align: left;
+    margin-left: -220px;
+    margin-top: 10px;
+}
+
+#receita1 > p {
+    text-align: justify;
+    margin-top: 445px;
+    margin-left: -370px;
+}
+
+/*-----------------------------------------------------------*/
+#receita2 > h1 {
+    margin-left: -320px;
+    width: 500px;
+    text-align: center;
+}
+
+#receita2 > img {
+    width: 700px;
+    height: 180px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#receita2 > ul > li {
+    width: 200px;
+    display: list-item;
+    text-align: left;
+    margin-left: -220px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#receita2 > ul {
+    margin-top: 280px;
+}
+
+#receita2 > p {
+    margin-bottom: 5px;
+    text-align: justify;
+    margin-top: 440px;
+    margin-left: -350px;
+}
+
+/*----------------- Receita 3 --------------------*/
+
+#receita3 > h1 {
+    margin-left: -290px;
+    width: 500px;
+    text-align: center;
+}
+
+#receita3 > img {
+    width: 780px;
+    height: 180px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+#receita3 > ul > li {
+    width: 200px;
+    display: list-item;
+    text-align: left;
+    margin-left: -220px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#receita3 > ul {
+    margin-top: 280px;
+}
+
+#receita3 > p {
+    margin-bottom: 5px;
+    text-align: justify;
+    margin-top: 440px;
+    margin-left: -350px;
 }
