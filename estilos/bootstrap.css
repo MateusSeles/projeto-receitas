@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+}
+
+.header {
+    background-color: grey;
+}
+
+.header > div {
+    display: inline-block;
+    margin: 10px;
+    height: 50px;
+}
+
+div.container{
+    background-color: rgb(231, 146, 118);
+}
+
+/*-----------FIM DO HEADER ------ Inicio do Main/Formulário ---------*/
+.main {
+    background-color: aqua;
+}
+
+.coluna_1 {
+    background-color: rgb(231, 146, 118);
+    height: 85vh;
+}
+
+h1 {
+    font-family: var(--fonte2);
+    margin: 15px;
+    font-size: 30px;
+    background-color: blue;
+    margin-top: 50px;
+}
+
+
+
+/*-----------FIM DO MAIN ------ Inicio do Footer/Rodapé ---------*/
+
+.rodape {
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.rodape > a{
+    color: white;
+}
