@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="semantic/dist/semantic.min.js"></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -23,13 +20,58 @@
 
         <div class="row main">
             <div class="col-12 text-center coluna_1">
-            <div id="formulario">
+            <div id="formulario" class="container">
                 <h1 class="h1">Efetue seu Cadastro</h1>
-                <form action="cadastro.php" class="ui form" method="post" autocomplete="on"
-                class="ui form" >
-            
-            
-            
+                <form action="cadastro.php" class="form" method="post" autocomplete="on">
+
+                        <div class="row">
+                            <div class="row-12">
+                                <label for="">Nome</label>
+                                <input type="text" name="Nome" placeholder="Name" id="">
+                            </div>
+                        </div>
+                        
+
+                        <div class="field">
+                            <label for="">E-mail</label>
+                            <input type="text" name="E-mail" placeholder="E-mail" id="" >
+                        </div>
+
+                        <div class="field">
+                            <label for="">Cep</label>
+                            <input type="text" name="Cep" placeholder="xx.xxx-xxx" id="">
+                        </div>
+                        
+                        
+                        <div class="field">
+                            <label for="">Rua</label>
+                            <input type="text" name="Rua" placeholder="Street" id="" >
+                        </div>
+                        
+
+                        <div class="field">
+                            <label for="">Nº</label>
+                            <input type="text" name="Nº" placeholder="Number" id="" >
+                        </div>
+
+                        <div class="field">
+                            <label for="">Complemento</label>
+                            <input type="text" name="E-mail" placeholder="number x" id="" >
+                        </div>
+                        
+                        
+                        <div class="two fields">
+                            <div class="field">
+                                <label for="">Cidade</label>
+                                <input type="text" name="Cidade" placeholder="City" id="" >
+                            </div>
+                            <div class="field">
+                                <label for="">UF</label>
+                                <input type="text" name="E-mail" placeholder="ex: BA" id="" >
+                            </div>
+                        </div>
+                        
+                        <button class="ui button" type="submit">Cadastrar</button>   
                 </form>
                 </div>
             </div>
@@ -43,6 +85,5 @@
         </div>
     </div>
     
-
 </body>
 </html>
