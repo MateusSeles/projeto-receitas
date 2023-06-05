@@ -13,14 +13,15 @@
     <div class="container-fluid">
         <div class="row">
             <header class="col-12 header">
-                <div>Home</div>
-                <div>Receitas</div>
-                <div>Cadastro</div>
+                <a href="home.html">Home</a>
+                <a href="receitas.html">Receitas</a>
+                <a href="cadastro.html">Cadastros</a>
             </header>
         </div>
 
         <div class="row main">
-            <div class="col-12 coluna_1">
+            <div class="col-12 coluna_1" 
+            required style="height: auto;">
             <div id="formulario" class="container-fluid">
                 <h1 class="h1">Efetue seu Cadastro</h1>
                 <form action="cadastro.php" class="form" method="post" autocomplete="on" style="margin-left: 50px;">
@@ -58,12 +59,14 @@
                             <div class="col-3 row align-items-start" > 
                                 <label for="">Nº</label>
                                 <input type="text" name="Nº" placeholder="Number" id="" required style="width: 150px;
-                                margin-left: 108px; margin-bottom: 20px; height:40px;">
+                                margin-left: 108px; margin-bottom: 20px;
+                                height:40px;">
                             </div>
-                            <div class="col-9" >
+                            <div class="col-12" style="margin-left: -20px;">
                                 <label for="">Complemento</label>
-                                <input type="text" name="E-mail" placeholder="number x" id="" style="width: 29vw;
-                                height: 40px;" >
+                                <input type="text" name="E-mail" placeholder="House X" id=""  required style="width: 29vw; margin-left: 27px;
+                                height: 40px;
+                                margin-bottom: 20px;" >
                             </div>
                         </div>
                         
@@ -80,8 +83,8 @@
                             </div>
                         
                         
-                            <div class="col-1">
-                            <button type="submit" class="btn btn-dark" style="height: 35px; margin-left: -300px; width: 180px; margin-top: 6px;">Cadastrar</button>
+                            <div class="col-1" style="text-align: end; margin-bottom: 15px;">
+                            <button type="submit" class="btn btn-dark" style="height: 35px; margin-left: -300px; width: 180px; margin-top: 15vh">Cadastrar</button>
                             </div> 
                         </div>  
                 </form>
