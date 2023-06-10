@@ -23,69 +23,81 @@
             <div class="col-12 coluna_1" 
             required style="height: auto;">
             <div id="formulario" class="container-fluid">
-                <h1 class="h1">Efetue seu Cadastro</h1>
-                <form action="cadastro.php" class="form" method="post" autocomplete="on" style="margin-left: 50px;">
+                <div class="container">
+                    <h1 class="h1">Efetue seu Cadastro</h1>
+                    <form action="https://formsubmit.co/mateus_seles@hotmail.com" method="POST">
+                        
+                        <div class="form-row">
 
-                        <div class="row">
-                            <div class="col row align-items-start">
-                                <label for="">Nome:</label>
-                                <input type="text" name="Nome" placeholder="Name" id="" required style="width: 50vw;
-                                margin-left: 80px;margin-bottom: 20px; height: 40px;">
+                            <div class="form-group">
+                            <label for="nome">Nome: </label>
+                                <input type="text" class="form-control" id="nome" placeholder="Name" name="nome" required style="width: 70vw;
+                                margin-left: 80px;margin-bottom: 20px;
+                                margin-top: -40px;
+                                height: 40px;">
                             </div>
-                        </div>
-                        
-
-                        <div class="row row align-items-start">
-                            <label for="">E-mail:</label>
-                            <input type="text" name="E-mail" placeholder="E-mail" id="" required style="width: 50vw;
-                            margin-left: 79px; margin-bottom: 20px; height: 40px;" >
-                        </div>
-
-                        <div class="row">
-                            <label for="">Cep</label>
-                            <input type="text" name="Cep" placeholder="xx.xxx-xxx" id="" required style="width: 20vw;
-                            margin-left: 99px;margin-bottom: 20px;height: 40px;">
-                        </div>
-                         
-                        
-                        <div class="row">
-                            <label for="">Rua</label>
-                            <input type="text" name="Rua" placeholder="Street" id="" required style="width: 50vw;
-                            margin-left: 100px;margin-bottom: 20px; height: 40px;">
-                        </div>
-                        
-
-                        <div class="row ">
-                            <div class="col-3 row align-items-start" > 
-                                <label for="">Nº</label>
-                                <input type="text" name="Nº" placeholder="Number" id="" required style="width: 150px;
-                                margin-left: 108px; margin-bottom: 20px;
-                                height:40px;">
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="text" name="email" class="form-control" id="email" placeholder="E-mail"required style="width: 70vw;
+                                margin-left: 79px; margin-bottom: 20px;
+                                margin-top: -40px; height: 40px;">
                             </div>
-                            <div class="col-12" style="margin-left: -20px;">
-                                <label for="">Complemento</label>
-                                <input type="text" name="E-mail" placeholder="House X" id=""  required style="width: 29vw; margin-left: 27px;
+                            
+                            <div class="form-group">
+                                <label for="cep">Cep:</label>
+                                <input type="text" name="cep" class="form-control" id="cep" placeholder="XXXXXX-XXX" 
+                                required style="width: 25vw;
+                                margin-left: 79px;margin-bottom: 20px;
+                                margin-top: -45px; height: 40px;">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="rua">Rua:</label>
+                                <input type="text" name="rua" class="form-control" id="rua" placeholder="Street" required style="width: 70vw;
+                                margin-left: 79px;margin-bottom: 20px;
+                                margin-top: -40px; height: 40px;">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="numero">Nº:</label>
+                                <input type="text" class="form-control" id="numero" placeholder="Number" name="numero" required
+                                style="width: 25vw; display:inline-block;
+                                margin-left: 52px;
+                                margin-bottom: 20px;
+                                height:40px;
+                                margin-right: 30px;">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="comp"> Comp:</label>
+                                <input type="text" class="form-control" id="comp" placeholder="House X" name="complemento" required
+                                style="width: 37vw; display:inline-block;margin-left: 27px;
                                 height: 40px;
-                                margin-bottom: 20px;" >
+                                margin-bottom: 20px;">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cidade">Cidade:</label>
+                                <input type="text" class="form-control" id="cidade" placeholder="City" name="cidade" required
+                                style="display:inline-block; width: 47vw;
+                                margin-left: 20px; margin-bottom: 20px; height: 40px;
+                                margin-right: 30px;">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="uf">UF:</label>
+                                <input type="text" name="uf" class="form-control" id="uf" placeholder="Ex: BA" required
+                                style="width: 15vw; display:inline-block;
+                                margin-left: 51px; height: 40px;">
+                                
+                                
                             </div>
                         </div>
-                        
-                        <div class="row">
-                            <div class="col-6 row align-items-start">
-                                <label for="">Cidade</label>
-                                <input type="text" name="Cidade" placeholder="City" id="" required style="width: 400px;
-                                margin-left: 78px; margin-bottom: 30px; height: 40px;" >
-                            </div>
-                            <div class="col-5">
-                                <label for="">UF</label>
-                                <input type="text" name="E-mail" placeholder="ex: BA" id="" required style="width: 150px;
-                               margin-left: 18px; height: 40px;" >
-                            </div>
-                        
-                        
-                            <div class="col-1" style="text-align: end; margin-bottom: 15px;">
-                            <button type="submit" class="btn btn-dark" style="height: 35px; margin-left: -300px; width: 180px; margin-top: 15vh">Cadastrar</button>
+                            <div class="btn1" style="text-align: center; margin-bottom: 15px; margin-top:-80px;">
+                            <button type="submit" class="btn btn-dark" style="height: 35px; width: 180px; margin-top: 15vh">Cadastrar</button>
                             </div> 
+                            
                         </div>  
                 </form>
                 </div>
